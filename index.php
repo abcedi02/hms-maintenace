@@ -7,23 +7,22 @@ require_once 'includes/header.php';
 <div class="container-fluid p-0 pb-5">
     <div class="owl-carousel header-carousel position-relative">
         <div class="owl-carousel-item position-relative">
-            <img class="img-fluid" src="img/carousel-1.png" alt="Professional Maintenance Services">
+            <img class="img-fluid" src="img/carousel-1.jpg" alt="Professional Maintenance Services">
             <div class="carousel-inner">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-12 col-lg-8 text-center">
-                            <h1 class="display-3 text-white animated slideInDown mb-4">HSM Home Service Maintenance</h1>
-                            <p class="fs-5 text-white mb-2 pb-2">Keeping Social Housing Moving</p>
-                            <p class="text-white mb-4">Reactive + Planned, Suggests Responsiveness</p>
-                            <a href="contact.php" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Partner With Us</a>
-                            <a href="services.php" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Our Services</a>
+                            <h1 class="display-3 text-white animated slideInDown mb-4">London's Trusted Tier 2 Partner</h1>
+                            <p class="fs-5 text-white mb-4 pb-2">HSM Home Service Maintenance has delivered planned and reactive property maintenance for Tier 1 contractors across London since 2018. CIS-registered, fully compliant, and built around your SLAs.</p>
+                            <a href="services.php" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Our Services</a>
+                            <a href="contact.php" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Get a Quote</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="owl-carousel-item position-relative">
-            <img class="img-fluid" src="img/carousel-2.png" alt="Reactive and Planned Maintenance">
+            <img class="img-fluid" src="img/carousel-2.jpg" alt="Reactive and Planned Maintenance">
             <div class="carousel-inner">
                 <div class="container">
                     <div class="row justify-content-center">
@@ -38,7 +37,7 @@ require_once 'includes/header.php';
             </div>
         </div>
         <div class="owl-carousel-item position-relative">
-            <img class="img-fluid" src="img/carousel-3.png" alt="Infrastructure Services">
+            <img class="img-fluid" src="img/carousel-3.jpg" alt="Infrastructure Services">
             <div class="carousel-inner">
                 <div class="container">
                     <div class="row justify-content-center">
@@ -112,7 +111,7 @@ require_once 'includes/header.php';
         <div class="row g-0 mx-lg-0">
             <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute img-fluid w-100 h-100" src="img/about.png" style="object-fit: cover;" alt="About HSM">
+                    <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="About HSM">
                 </div>
             </div>
             <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
@@ -266,7 +265,7 @@ require_once 'includes/header.php';
             </div>
             <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute img-fluid w-100 h-100" src="img/feature.png" style="object-fit: cover;" alt="Why Choose HSM">
+                    <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="Why Choose HSM">
                 </div>
             </div>
         </div>
@@ -282,55 +281,68 @@ require_once 'includes/header.php';
             <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
             <h1 class="display-5 mb-5">Our Projects</h1>
         </div>
-        <div class="row g-4 portfolio-container">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="project-card bg-white border h-100 p-4">
-                    <div class="position-relative mb-3">
-                        <img class="img-fluid w-100 rounded" src="img/portfolio-1.jpg" alt="Kitchen Refurbishment - Hackney">
-                        <div class="position-absolute top-0 end-0 bg-primary text-white px-3 py-1 rounded-start">Before/After</div>
-                    </div>
-                    <h4 class="mb-2">Kitchen Refurbishment</h4>
-                    <p class="text-muted mb-2"><small>Type: Planned Maintenance</small></p>
-                    <p class="mb-2"><small>Scope: Full kitchen replacement, plumbing, electrical</small></p>
-                    <p class="mb-2"><small>Borough: Hackney</small></p>
-                    <p class="mb-2"><small>Turnaround: 5 days</small></p>
-                    <p class="text-primary mb-3 fst-italic"><small>"Excellent work, completed on time and to specification."</small></p>
-                    <p class="text-muted mb-0"><small>— Tier 1 Contract Manager</small></p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="project-card bg-white border h-100 p-4">
-                    <div class="position-relative mb-3">
-                        <img class="img-fluid w-100 rounded" src="img/portfolio-2.jpg" alt="Emergency Plumbing - Tower Hamlets">
-                        <div class="position-absolute top-0 end-0 bg-primary text-white px-3 py-1 rounded-start">Before/After</div>
-                    </div>
-                    <h4 class="mb-2">Emergency Plumbing Repair</h4>
-                    <p class="text-muted mb-2"><small>Type: Reactive Repair</small></p>
-                    <p class="mb-2"><small>Scope: Burst pipe repair, water damage mitigation</small></p>
-                    <p class="mb-2"><small>Borough: Tower Hamlets</small></p>
-                    <p class="mb-2"><small>Turnaround: 4 hours</small></p>
-                    <p class="text-primary mb-3 fst-italic"><small>"Rapid response prevented major damage to the property."</small></p>
-                    <p class="text-muted mb-0"><small>— Tier 1 Contract Manager</small></p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="project-card bg-white border h-100 p-4">
-                    <div class="position-relative mb-3">
-                        <img class="img-fluid w-100 rounded" src="img/portfolio-3.jpg" alt="Void Refurbishment - Camden">
-                        <div class="position-absolute top-0 end-0 bg-primary text-white px-3 py-1 rounded-start">Before/After</div>
-                    </div>
-                    <h4 class="mb-2">Void Property Refurbishment</h4>
-                    <p class="text-muted mb-2"><small>Type: Void Refurbishment</small></p>
-                    <p class="mb-2"><small>Scope: Full property turnaround to lettable standard</small></p>
-                    <p class="mb-2"><small>Borough: Camden</small></p>
-                    <p class="mb-2"><small>Turnaround: 10 days</small></p>
-                    <p class="text-primary mb-3 fst-italic"><small>"Property ready for re-letting ahead of schedule."</small></p>
-                    <p class="text-muted mb-0"><small>— Tier 1 Contract Manager</small></p>
-                </div>
+        <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-12 text-center">
+                <ul class="list-inline mb-5" id="portfolio-flters">
+                    <li class="mx-2 active" data-filter="*">All</li>
+                    <li class="mx-2" data-filter=".reactive">Reactive</li>
+                    <li class="mx-2" data-filter=".planned">Planned</li>
+                    <li class="mx-2" data-filter=".infrastructure">Infrastructure</li>
+                </ul>
             </div>
         </div>
-        <div class="text-center mt-5">
-            <a href="projects.php" class="btn btn-primary rounded-pill py-3 px-5">View All Projects</a>
+        <div class="row g-4 portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-item reactive wow fadeInUp" data-wow-delay="0.1s">
+                <div class="portfolio-inner">
+                    <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="Emergency Repair Project">
+                    <div class="text-center p-4">
+                        <p class="text-primary mb-2">Reactive Maintenance</p>
+                        <h5 class="lh-base mb-0">Emergency Repair for Commercial Property</h5>
+                    </div>
+                    <div class="portfolio-text text-center bg-white p-4">
+                        <p class="text-primary mb-2">Reactive Maintenance</p>
+                        <h5 class="lh-base mb-3">Emergency Repair for Commercial Property</h5>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="case-studies.php"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item planned wow fadeInUp" data-wow-delay="0.3s">
+                <div class="portfolio-inner">
+                    <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="Preventive Maintenance">
+                    <div class="text-center p-4">
+                        <p class="text-primary mb-2">Planned Maintenance</p>
+                        <h5 class="lh-base mb-0">Preventive Maintenance Program</h5>
+                    </div>
+                    <div class="portfolio-text text-center bg-white p-4">
+                        <p class="text-primary mb-2">Planned Maintenance</p>
+                        <h5 class="lh-base mb-3">Preventive Maintenance Program</h5>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="case-studies.php"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item infrastructure wow fadeInUp" data-wow-delay="0.5s">
+                <div class="portfolio-inner">
+                    <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="Infrastructure Upgrade">
+                    <div class="text-center p-4">
+                        <p class="text-primary mb-2">Infrastructure</p>
+                        <h5 class="lh-base mb-0">Infrastructure Upgrade Project</h5>
+                    </div>
+                    <div class="portfolio-text text-center bg-white p-4">
+                        <p class="text-primary mb-2">Infrastructure</p>
+                        <h5 class="lh-base mb-3">Infrastructure Upgrade Project</h5>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="case-studies.php"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -343,7 +355,7 @@ require_once 'includes/header.php';
         <div class="row g-0 mx-lg-0">
             <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute img-fluid w-100 h-100" src="img/quote.png" style="object-fit: cover;" alt="Get a Quote">
+                    <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg" style="object-fit: cover;" alt="Get a Quote">
                 </div>
             </div>
             <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
