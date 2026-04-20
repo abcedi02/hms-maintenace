@@ -35,7 +35,7 @@ $result = $conn->query($sql);
         <div class="row g-4">
             <?php if ($result->num_rows > 0): ?>
                 <?php while($case = $result->fetch_assoc()): ?>
-                    <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="col-lg-6 col-md-6 wow fadeIn" data-wow-delay="0.1s">
                         <div class="case-study-card">
                             <img class="img-fluid w-100" src="<?php echo $case['after_image'] ? htmlspecialchars($case['after_image']) : 'img/portfolio-1.jpg'; ?>" alt="<?php echo htmlspecialchars($case['title']); ?>">
                             <div class="case-study-overlay">
@@ -69,7 +69,7 @@ $result = $conn->query($sql);
                 <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
                     <div class="project-card bg-white border h-100 p-4">
                         <div class="position-relative mb-3">
-                            <img class="img-fluid w-100 rounded" src="img/portfolio-2.jpg" alt="Emergency Plumbing - Tower Hamlets">
+                            <img class="img-fluid w-100 rounded" src="img/plum.jpg" alt="Emergency Plumbing - Tower Hamlets">
                             <div class="position-absolute top-0 end-0 bg-primary text-white px-3 py-1 rounded-start">Before/After</div>
                         </div>
                         <h4 class="mb-2">Emergency Plumbing Repair</h4>
