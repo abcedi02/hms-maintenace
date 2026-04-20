@@ -13,9 +13,6 @@ require_once 'config.php';
     
     <title><?php echo isset($page_title) ? $page_title . ' - ' : ''; ?>HSM Home Service Maintenance</title>
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
     <!-- Google Web Fonts - Montserrat Bold for headings, Inter for body -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
