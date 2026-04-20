@@ -51,7 +51,7 @@ $result = $conn->query($sql);
                 <?php endwhile; ?>
             <?php else: ?>
                 <!-- Fallback static content if database not set up -->
-                <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="col-lg-6 col-md-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="project-card bg-white border h-100 p-4">
                         <div class="position-relative mb-3">
                             <img class="img-fluid w-100 rounded" src="img/portfolio-1.jpg" alt="Kitchen Refurbishment - Hackney">
@@ -66,7 +66,7 @@ $result = $conn->query($sql);
                         <p class="text-muted mb-0"><small>— Tier 1 Contract Manager</small></p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                <div class="col-lg-6 col-md-6 wow fadeIn" data-wow-delay="0.3s">
                     <div class="project-card bg-white border h-100 p-4">
                         <div class="position-relative mb-3">
                             <img class="img-fluid w-100 rounded" src="img/plum.jpg" alt="Emergency Plumbing - Tower Hamlets">
@@ -81,7 +81,7 @@ $result = $conn->query($sql);
                         <p class="text-muted mb-0"><small>— Tier 1 Contract Manager</small></p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-lg-6 col-md-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="project-card bg-white border h-100 p-4">
                         <div class="position-relative mb-3">
                             <img class="img-fluid w-100 rounded" src="img/portfolio-3.jpg" alt="Void Refurbishment - Camden">
@@ -96,7 +96,7 @@ $result = $conn->query($sql);
                         <p class="text-muted mb-0"><small>— Tier 1 Contract Manager</small></p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="col-lg-6 col-md-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="project-card bg-white border h-100 p-4">
                         <div class="position-relative mb-3">
                             <img class="img-fluid w-100 rounded" src="img/portfolio-4.jpg" alt="Window Replacement - Islington">
@@ -111,7 +111,7 @@ $result = $conn->query($sql);
                         <p class="text-muted mb-0"><small>— Tier 1 Contract Manager</small></p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                <div class="col-lg-6 col-md-6 wow fadeIn" data-wow-delay="0.3s">
                     <div class="project-card bg-white border h-100 p-4">
                         <div class="position-relative mb-3">
                             <img class="img-fluid w-100 rounded" src="img/portfolio-5.jpg" alt="Damp Remediation - Lambeth">
@@ -126,7 +126,7 @@ $result = $conn->query($sql);
                         <p class="text-muted mb-0"><small>— Tier 1 Contract Manager</small></p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-lg-6 col-md-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="project-card bg-white border h-100 p-4">
                         <div class="position-relative mb-3">
                             <img class="img-fluid w-100 rounded" src="img/portfolio-6.jpg" alt="Roofing Repair - Southwark">
